@@ -1,0 +1,8 @@
+paper{
+    matter.bodies.circle(200,100,4inches)
+    function keypressed(){
+        if(keycode===UP_ARROW)
+
+        matter.bodies.applyforce(paperobject.body,paperobject.body.position,{x:100,y=-10});
+    }
+}
